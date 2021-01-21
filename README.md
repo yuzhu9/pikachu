@@ -3,7 +3,7 @@
 画一只小动物
 
 ### 预览地址：
-
+http://zhengyuan.xyz/pikachu/src/index.html
 
 
 温馨提示：请使用PC查看，小动物比较害羞，使用手机查看可能会犹抱琵琶半遮面
