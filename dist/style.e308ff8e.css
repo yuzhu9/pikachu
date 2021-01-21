@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background: #071C32;
+}
+#cssText {
+    height: 40vh;
+    overflow-y: auto;
+    padding-left: 20px;
+    color: #fff;
+    padding-right: 70px;
+}
+#buttons {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10px;
+    right: 15px;
+}
+#buttons>button {
+    border-radius: 5px;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    outline: none;
+    position: relative;
+    background: none;
+    transition: all .3s;
+    box-shadow: inset 0 0 5px #fff;
+}
+#buttons>button::after {
+    background: #fff;
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .3s;
+}
+#buttons>button:hover {
+    color: #071C32;
+}
+#buttons>button:hover::after {
+    height: 100%;
+}
+.skin {
+    height: 60vh;
+}
+.wrapper {
+    background: #ffe600;
+}
+
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
